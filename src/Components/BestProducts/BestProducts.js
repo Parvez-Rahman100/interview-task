@@ -4,7 +4,7 @@ import Products from "./Products";
 
 const BestProducts = () => {
   return (
-    <div className="containers">
+    <div className="containers ">
       <h1 className="text-center text-5xl font-semibold text-[#25282B] mb-6 mt-16">
         Best Products
       </h1>

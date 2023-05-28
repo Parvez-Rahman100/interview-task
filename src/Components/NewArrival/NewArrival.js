@@ -4,7 +4,7 @@ import Card from "./Card";
 
 const NewArrival = () => {
   return (
-    <div className="containers">
+    <div className="containers ">
       <h1 className="text-center text-5xl font-semibold text-[#25282B] mb-6">
         New Arrival
       </h1>
