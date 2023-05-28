@@ -8,9 +8,9 @@ const Tops = ({ product }) => {
     <div className=" mt-14">
       <div className="card card-side   h-[200px]">
         <figure>
-          <img src={img} alt="img" />
+          <img src={img} alt="img" className="bg-[#F1F1F1]" />
         </figure>
-        <div className="card-body bg-[#F1F1F1]">
+        <div className="card-body ">
           <div className="flex justify-center items-center mt-10 text-yellow-400">
             <AiTwotoneStar />
             <AiTwotoneStar />

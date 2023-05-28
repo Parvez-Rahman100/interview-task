@@ -1,5 +1,6 @@
 import "./App.css";
 import BestProducts from "./Components/BestProducts/BestProducts";
+import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
 import Hero from "./Components/Hero/Hero";
 import Navbar from "./Components/Navbar/Navbar";
@@ -15,6 +16,7 @@ function App() {
       <NewArrival />
       <BestProducts />
       <TopRated />
+      <Footer />
     </div>
   );
 }
