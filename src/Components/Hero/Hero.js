@@ -2,7 +2,7 @@ import React from "react";
 import hero from "../../assets/hero.png";
 const Hero = () => {
   return (
-    <div>
+    <div className=" mb-24">
       <div className="carousel w--full">
         <div id="slide1" className="carousel-item relative w-full">
           <img src={hero} alt="" className="w-[1920px]  bg-cover" />
