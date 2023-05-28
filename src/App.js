@@ -7,6 +7,7 @@ import Hero from "./Components/Hero/Hero";
 import Menus from "./Components/Menus/Menus";
 import Navbar from "./Components/Navbar/Navbar";
 import NewArrival from "./Components/NewArrival/NewArrival";
+import Timer from "./Components/Timer/Timer";
 import TopRated from "./Components/TopRated/TopRated";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <div className="bg-[#F5F5F5]">
         <Hero />
         <NewArrival />
+        <Timer />
         <BestProducts />
         <TopRated />
         <Article />
