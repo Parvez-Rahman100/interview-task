@@ -8,7 +8,7 @@ import logo from "../../assets/logo.svg";
 
 const Footer = () => {
   return (
-    <div className="mt-28 bg-[#558B2F] text-white pt-7 px-10">
+    <div className="mt-28 bg-[#558B2F] text-white pt-16 px-10">
       <div className="grid grid-cols-4 gap-5 text-center pb-7">
         <div className="text-white">
           <img src={logo} alt="logo" />
