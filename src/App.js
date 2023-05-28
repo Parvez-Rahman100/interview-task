@@ -1,4 +1,5 @@
 import "./App.css";
+import Article from "./Components/Article/Article";
 import BestProducts from "./Components/BestProducts/BestProducts";
 import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
@@ -17,6 +18,7 @@ function App() {
       <NewArrival />
       <BestProducts />
       <TopRated />
+      <Article />
       <div className="relative">
         <div className="absolute top-[-23px] left-[50%] z-10 translate-x-[-50%] translate-y-[-32%]">
           <Menus />
